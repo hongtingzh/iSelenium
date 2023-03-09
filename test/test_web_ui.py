@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 class ISelenium(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.driver = webdriver.Chrome(executable_path="../drivers/chromedriver.exe")
+        self.driver = webdriver.Chrome()
 
     def test_baidu(self):
 
