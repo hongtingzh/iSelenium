@@ -1,4 +1,8 @@
-print("This is test_bb")
-print("This is test_bb")
-print("qwerqwe")
-print("qwerqwe")
+def test_aaa():
+    print("aaa")
+    assert True
+
+
+def test_bbb():
+    print("bbbb")
+    assert False
