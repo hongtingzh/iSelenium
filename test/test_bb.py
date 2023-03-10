@@ -12,4 +12,4 @@ def test_bbb():
 
 
 if __name__ == '__main__':
-    pytest.main(["-vs", "--alluredir", "report/allure_report"])
+    pytest.main(["-vs", "--alluredir", "./report/allure_report"])
