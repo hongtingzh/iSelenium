@@ -1,5 +1,3 @@
-import pytest
-
 
 def test_aaa():
     print("aaa")
@@ -10,6 +8,3 @@ def test_bbb():
     print("bbbb")
     assert True
 
-
-if __name__ == '__main__':
-    pytest.main(["-vs"])
